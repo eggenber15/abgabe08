@@ -4,7 +4,7 @@ public interface Stack {
 
 	/**
 	 * Tests if this stack is empty.
-	 * @return Returns true if empty, false if not.
+	 * @return true if empty, false if not.
 	 */
 	public abstract boolean isEmpty();
 
@@ -13,7 +13,7 @@ public interface Stack {
 	 * 
 	 * if Stack is full return an error message
 	 * 
-	 * @param item Gets pushed to the stack.
+	 * @param  gets pushed to the stack.
 	 */
 	public abstract void push(String item);
 
